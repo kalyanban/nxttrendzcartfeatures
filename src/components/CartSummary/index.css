@@ -1,0 +1,36 @@
+.summary-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.total-price-heading {
+  color: #616e7c;
+  font-weight: 600;
+  font-size: 15px;
+  align-self: flex-end;
+}
+.amount {
+  color: #171f46;
+  font-weight: bold;
+  font-size: 25px;
+}
+.items-count {
+  font-size: 15px;
+  color: #616e7c;
+  text-align: end;
+}
+.checkout-button {
+  background-color: #0b69ff;
+  height: 35px;
+  width: 100%;
+  border: none;
+  border-radius: 6px;
+  color: #ffffff;
+  font-size: 12px;
+}
+
+@media screen and (min-width: 768px) {
+  .checkout-button {
+    font-size: 14px;
+  }
+}
